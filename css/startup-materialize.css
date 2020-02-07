@@ -9558,7 +9558,7 @@ input[type=range]::-ms-thumb {
 }
 
 .section.light .pricing-header i {
-  background-color: #42c4ac;
+  background-color: #efefef;
 }
 
 .section.light .pricing-features .pricing-feature.disabled,
@@ -10403,7 +10403,7 @@ input[type=range]::-ms-thumb {
 }
 
 .blog-related li a {
-  color: #42c4ac;
+  color: #efefef;
   display: block;
   transition: color .3s;
 }
@@ -10487,7 +10487,7 @@ input[type=range]::-ms-thumb {
 .avatar-wrapper:hover::after {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
-  border-color: #42c4ac;
+  border-color: #efefef;
   transition: border-color 0.2s, -webkit-transform 0.2s cubic-bezier(0.06, 0.59, 0.24, 1.55);
   transition: transform 0.2s cubic-bezier(0.06, 0.59, 0.24, 1.55), border-color 0.2s;
   transition: transform 0.2s cubic-bezier(0.06, 0.59, 0.24, 1.55), border-color 0.2s, -webkit-transform 0.2s cubic-bezier(0.06, 0.59, 0.24, 1.55);
@@ -11930,7 +11930,7 @@ nav.navbar ul a:hover {
 
 .section.light {
   color: rgba(0, 0, 0, 0.6);
-  background-color: #42c4ac;
+  background-color: #a8a8a8;
 }
 
 .section.light h1, .section.light h2, .section.light h3, .section.light h4, .section.light h5 {
