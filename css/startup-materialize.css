@@ -9430,12 +9430,12 @@ input[type=range]::-ms-thumb {
 .phone-preview-sizer .phone-preview {
   background-image: url("../images/devices/nexus5x.png");
 }
-
 .phone-preview-sizer .image-container {
   width: 92%;
   top: 9%;
   left: 4%;
   bottom: 10%;
+  background-image: url("../images/tempsnip.png");
 }
 
 .row .col.phone-preview-sizer {
@@ -11293,164 +11293,6 @@ input[type=range]::-ms-thumb {
   left: -50px;
   opacity: 0;
 }
-
-/*****************
- * CIRCLE REVEAL *
- *****************/
-.circle-reveal-intro {
-  position: relative;
-  height: auto;
-  overflow: hidden;
-}
-
-.circle-reveal-intro[data-disabled="true"] .circle-reveal-wrapper,
-.circle-reveal-intro[data-disabled="true"] .fixed-wrapper {
-  position: relative;
-}
-
-.circle-reveal-intro[data-disabled="true"] .fixed-wrapper {
-  height: auto;
-}
-
-.circle-reveal-intro[data-disabled="true"] .circle-background {
-  height: 100%;
-  width: 100%;
-  border-radius: 0;
-}
-
-.circle-reveal-intro .circle-reveal-wrapper,
-.circle-reveal-intro .fixed-wrapper {
-  height: 100vh;
-  width: 100%;
-}
-
-.circle-reveal-intro .background,
-.circle-reveal-intro .header-wrapper {
-  position: absolute;
-  height: 100%;
-}
-
-.circle-reveal-intro .fixed-wrapper {
-  position: absolute;
-}
-
-.circle-reveal-intro .circle-reveal-wrapper {
-  position: absolute;
-}
-
-.circle-reveal-intro .circle-reveal-wrapper:first-child {
-  z-index: 9;
-}
-
-.circle-reveal-intro .circle-reveal-wrapper .valign-wrapper {
-  height: 100%;
-}
-
-.circle-reveal-intro .background {
-  overflow: hidden;
-}
-
-.circle-reveal-intro .background img {
-  width: 100%;
-}
-
-.circle-reveal-intro .circle-background {
-  border-radius: 50%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 141.42vw;
-  height: 141.42vw;
-  -webkit-transform: translate3d(-50%, -50%, 0);
-          transform: translate3d(-50%, -50%, 0);
-  -webkit-transform-origin: 50%;
-          transform-origin: 50%;
-  z-index: -1;
-}
-
-.circle-reveal-intro .header-wrapper {
-  z-index: 3;
-}
-
-.circle-reveal-intro .background-layer {
-  position: relative;
-  width: 100%;
-  min-height: 100vh;
-  height: auto;
-  z-index: -1;
-}
-
-.circle-reveal-intro .background-layer.end {
-  z-index: auto;
-}
-
-/* Portrait */
-@media screen and (orientation: portrait) {
-  .circle-reveal-wrapper .circle-background {
-    width: 141.42vh;
-    height: 141.42vh;
-  }
-}
-
-/***********
- * SHUFFLE *
- ***********/
-.shuffle-over-transition,
-.shuffle-under-transition {
-  position: relative;
-}
-
-.shuffle-over-transition {
-  height: 100%;
-  z-index: 0;
-  -webkit-transform-style: preserve-3d;
-          transform-style: preserve-3d;
-}
-
-.shuffle-under-transition,
-.section.shuffle-under-transition {
-  max-height: 100%;
-  width: 100%;
-  -webkit-transform: translateY(-100%);
-          transform: translateY(-100%);
-  z-index: 0;
-}
-
-.shuffle-under-transition[data-disabled="true"],
-.section.shuffle-under-transition[data-disabled="true"] {
-  max-height: none;
-  -webkit-transform: none;
-          transform: none;
-}
-
-.shuffle-under-transition.shuffle-under-end,
-.section.shuffle-under-transition.shuffle-under-end {
-  z-index: 2;
-}
-
-.shuffle-under-transition.shuffle-under-active,
-.section.shuffle-under-transition.shuffle-under-active {
-  z-index: 1;
-}
-
-/************
- * FLIP OUT *
- ************/
-.flip-out-intro {
-  position: relative;
-  height: 100%;
-  -webkit-perspective: 1000px;
-          perspective: 1000px;
-}
-
-.flip-out-intro .fixed-wrapper {
-  position: relative;
-  height: 100%;
-  -webkit-transform-origin: 50% 100%;
-          transform-origin: 50% 100%;
-  overflow: hidden;
-}
-
 /* Portrait */
 @media screen and (orientation: portrait) {
   .flip-out-intro .fixed-wrapper .background,
@@ -11788,7 +11630,7 @@ nav.navbar ul a:hover {
 .header .header-wrapper h1 {
   margin: 1rem 0;
   font-weight: 600;
-  font-size: 4rem;
+  font-size: 3rem;
   text-transform: uppercase;
 }
 
