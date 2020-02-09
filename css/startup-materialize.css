@@ -9347,6 +9347,7 @@ input[type=range]::-ms-thumb {
   top: 12%;
   left: 6%;
   bottom: 11%;
+  background-image: url("../images/cannabeticscreenshot.jpg");
 }
 
 .phone-preview-sizer .phone-preview {
