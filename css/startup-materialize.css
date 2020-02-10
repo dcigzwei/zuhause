@@ -11216,14 +11216,6 @@ input[type=range]::-ms-thumb {
   left: -50px;
   opacity: 0;
 }
-/* Portrait */
-@media screen and (orientation: portrait) {
-  .flip-out-intro .fixed-wrapper .background,
-  .flip-out-intro .fixed-wrapper .background img {
-    width: auto;
-    height: 100%;
-  }
-}
 
 body, html {
   height: 100%;
@@ -11281,7 +11273,7 @@ i {
 }
 
 .row.valign {
-  width: 100%;
+  width: 90%;
 }
 
 .background {
@@ -11293,18 +11285,18 @@ i {
   z-index: -1;
 }
 
-.background.portrait img {
-  min-width: 100%;
-  width: auto;
-  min-height: none;
-  height: 100%;
-}
 
 .background img {
   width: 100%;
   min-height: 100%;
 }
-
+@media only screen and (max-width: 768px) {
+  .background img {
+  width: 100% !important;
+}  .background img {
+  width: 100% !important;
+}
+}
 /**** TYPOGRAPHY ****/
 h1, h2, h3, h4, h5 .h1, .h2, .h3, .h4, .h5 {
   font-weight: 200;
